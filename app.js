@@ -1571,3 +1571,440 @@
 //  calcCircumference(r);
 //  calcArea(r);
 
+
+
+
+
+// ----------------chapter 38-44-----------------
+
+// ques1
+
+// function power(a,b){
+//     var i=0;
+//     var c=1;
+//     while(i<b){
+//         c=a*c;
+//         i++;
+//     }
+//     alert(c)
+// }
+
+// power(2,5);
+
+// ques2
+
+// function leapYear(yearCheck){
+   
+//         if(yearCheck%4==0){
+//             alert("The entered year is a leap Year");
+//         }
+//         else{
+//             alert("The entered year is not a leap year")
+//         }
+    
+// }
+
+// var yearCheck=+prompt("Enter any year");
+// leapYear(yearCheck);
+
+
+// ques3
+    
+    // function triangle(a,b,c){
+
+    //     function sides(a,b,c){
+    //         s=(a+b+c)/2;
+    //         return s;
+        
+    //     }
+    //     var s=sides(a,b,c)
+    
+    
+    //     var area=s*(s-a)*(s-b)*(s-c);
+    //     alert("Area of Triangle is = "+area)
+    
+    // }
+    
+    // var a=+prompt("To find area of triangle, Enter value for side a")
+    // var b=+prompt("Enter value for side b")
+    // var c=+prompt("Enter value for side c")
+    
+    // triangle(a,b,c);
+
+
+    
+    // ques4
+    // function marksCalculation(a,b,c){
+
+    //     function average(a,b,c){
+    //         avg=(a+b+c)/3;
+    //         return avg;
+        
+    //     }
+
+    //     function percentage(a,b,c){
+    //         per=((a+b+c)/300)*100;
+    //         return per;
+        
+    //     }
+
+    //     document.write("The average is = "+average(a,b,c));
+    //     document.write("</br>The percentage is = "+percentage(a,b,c));
+    
+    // }
+    
+    // var sub1=+prompt("Enter the marks of 1st Subject")
+    // var sub2=+prompt("Enter the marks of 2nd Subject")
+    // var sub3=+prompt("Enter the marks of 3rd Subject")
+    
+    // marksCalculation(sub1,sub2,sub3);
+
+
+    // ques5
+
+    // var str="Hello this is saqib";
+    // var found="no"
+    // function checkIndex(str,char){
+    //     // for(var i=0; i<str.length; i++)
+    //     var i=0;
+    //     while(i<str.length)
+    //     {
+    //         if(str[i]==char){
+    //             alert("The character is at index "+i)
+    //             found="yes";
+    //         }
+    //         i++;
+    //     }
+    //     if(found=="no"){
+    //         alert("Character not found");
+    //     }
+    // }
+
+    // checkIndex(str,"t");
+
+
+
+// // ques6
+
+// function del(){
+
+//     var string="My name is saqib";
+//    string = string.replace( /[aeiou]/g,'');
+//       document.write(string)
+// }
+
+// del()
+
+
+
+
+
+// ques7
+// not done yet
+
+
+
+
+
+// ques8
+
+// function converter(dist){
+
+
+//     function meter(dist){
+
+//         var m=dist*1000;
+//         return m;
+        
+//     }
+//     function feet(dist){
+
+//         var ft=dist*3280.84;
+//         return ft;
+        
+//     }
+    
+//     function inches(dist){
+    
+//         var inches=dist*39370.1;
+//         return inches;
+        
+//     }
+    
+//     function centimeters(dist){
+    
+//         var cm=dist*100000.054;
+//         return cm;
+        
+//     }
+
+//     var m=meter(dist);
+//     var ft=feet(dist)
+//     var inc=inches(dist)
+//     var cm=centimeters(dist)
+
+//     document.write("Distance in meter is : "+m+"</br>"+"Distance in feet is : "+ft+"</br>"+"Distance in inches is : "+inc+"</br>"+"Distance in centimeter is : "+cm)
+
+// }
+
+
+// var dist=prompt("Enter distance to convert","Enter in kilometer");
+// converter(dist)
+
+
+// ques9
+// function overTime(h){
+//     var hour=0;
+//     if(h>40){
+//         hour=h-40;
+//         var pay=hour*12;
+//         alert("Your overtime pay is "+pay+" Rs");
+//     }
+//     else{
+//         alert("Your are not eligible for overtime Pay")
+//     }
+// }
+
+// var hrs=+prompt("Enter ypur working hours");
+
+// overTime(hrs);
+
+
+
+// ques10
+// function Cash(){
+// var cash=+prompt("Enter ammount")
+
+// var Th=cash/1000;
+// var ThR=cash%1000;
+// var T=Math.floor(Th)
+
+// var hund=ThR/100;
+// var hundR=ThR%100;
+// var h=Math.floor(hund);
+
+// var fifty=hundR/50;
+// var fiftyR=hundR%50;
+// var f=Math.floor(fifty);
+
+// var ten=fiftyR/10;
+// var tenR=fiftyR%10;
+// var t=Math.floor(ten);
+
+// document.write("Thousands Notes :"+T+"</br>"+"Hundreds notes: "+h+"</br>"+"Fifty Notes: "+f+"</br>"+"Tens Notes: "+t)
+
+// }
+
+// Cash()
+
+
+
+// ----------------Chap 43-48-----------------
+
+// ques1
+// visit html file
+
+
+// ques2
+// visit html file
+
+// ques3
+// var row1=document.getElementById("R1")
+// var row2=document.getElementById("R2")
+// var row3=document.getElementById("R3")
+// var row4=document.getElementById("R4")
+// var row5=document.getElementById("R5")
+// var row6=document.getElementById("R6")
+// var row7=document.getElementById("R7")
+// var row8=document.getElementById("R8")
+// var row9=document.getElementById("R9")
+// var row10=document.getElementById("R10")
+
+
+// var i0=document.getElementById("ind0")
+// var i1=document.getElementById("ind1")
+// var i2=document.getElementById("ind2")
+// var i3=document.getElementById("ind3")
+// var i4=document.getElementById("ind4")
+// var i5=document.getElementById("ind5")
+// var i6=document.getElementById("ind6")
+// var i7=document.getElementById("ind7")
+// var i8=document.getElementById("ind8")
+// var i9=document.getElementById("ind9")
+
+
+
+// function disable(a){
+
+//     for(var i=0;i<=9;i++){
+//         if(a==0){
+//             row1.innerHTML="";
+
+//             i1.innerHTML=0;
+//             i2.innerHTML=1;
+//             i3.innerHTML=2;
+//             i4.innerHTML=3;
+//             i5.innerHTML=4;
+//             i6.innerHTML=5;
+//             i7.innerHTML=6;
+//             i8.innerHTML=7;
+//             i9.innerHTML=8;
+
+//         }
+//         else if(a==1){
+//             row2.innerHTML="";
+
+//             i2.innerHTML=1;
+//             i3.innerHTML=2;
+//             i4.innerHTML=3;
+//             i5.innerHTML=4;
+//             i6.innerHTML=5;
+//             i7.innerHTML=6;
+//             i8.innerHTML=7;
+//             i9.innerHTML=8;
+
+//         }
+//         else if(a==2){
+//             row3.innerHTML="";
+
+//             i3.innerHTML=2;
+//             i4.innerHTML=3;
+//             i5.innerHTML=4;
+//             i6.innerHTML=5;
+//             i7.innerHTML=6;
+//             i8.innerHTML=7;
+//             i9.innerHTML=8;
+
+//         }
+
+//         else if(a==3){
+//             row4.innerHTML="";
+
+//             i4.innerHTML=3;
+//             i5.innerHTML=4;
+//             i6.innerHTML=5;
+//             i7.innerHTML=6;
+//             i8.innerHTML=7;
+//             i9.innerHTML=8;
+
+//         }
+
+//         else if(a==4){
+//             row5.innerHTML="";
+
+//             i5.innerHTML=4;
+//             i6.innerHTML=5;
+//             i7.innerHTML=6;
+//             i8.innerHTML=7;
+//             i9.innerHTML=8;
+
+//         }
+
+//         else if(a==5){
+//             row6.innerHTML="";
+
+//             i6.innerHTML=5;
+//             i7.innerHTML=6;
+//             i8.innerHTML=7;
+//             i9.innerHTML=8;
+
+//         }
+
+//         else if(a==6){
+//             row7.innerHTML="";
+
+//             i7.innerHTML=6;
+//             i8.innerHTML=7;
+//             i9.innerHTML=8;
+
+//         }
+//         else if(a==7){
+//             row8.innerHTML="";
+
+//             i8.innerHTML=7;
+//             i9.innerHTML=8;
+
+//         }
+
+//         else if(a==8){
+//             row9.innerHTML="";
+
+
+//             i9.innerHTML=8;
+
+//         }
+
+//         else if(a==9){
+//             row10.innerHTML="";
+
+//         }
+//     }
+
+// }
+
+
+// ques4
+
+// function picChange(state){
+//     var flip=document.getElementById("flip");
+//     if(state=='pic1'){
+//         flip.src="./images/infinix-note-10-pro.jpg"
+//     }
+
+//     else if(state=='pic2'){
+//         flip.src="./images/xiaomi-redmi-note-10-pro.jpg"
+//     }
+// }
+
+
+// ques5
+
+// var count=document.getElementById("counter")
+
+// var n=0;
+
+// function counter(v){
+//     if(v==1){
+//         n++;
+//         count.innerHTML=n;
+//     }
+//     else  if(v==0){
+//         n--;
+//         count.innerHTML=n;
+//     }
+// }
+
+
+
+
+// --------------chapter 49-52-----------
+
+// ques1              
+
+function getname(){
+    var first=document.getElementById("first")
+    var last=document.getElementById("last")
+    var mail=document.getElementById("mail")
+    var phNo=document.getElementById("no")
+
+
+    document.write("First Name : "+first.value)
+    document.write("</br>Last Name : "+last.value)
+    document.write("</br>Email : "+mail.value)
+    document.write("</br>Phone No : "+phNo.value)
+
+}
+
+
+
+// ques2
+
+
+// function readMore(){
+
+// var text="Lorem ipsum dolor sit amet consectetu adipisicing elit. Perspiciatis aperiam nesciunt laudantium vitae iste consectetur tempore, ratione necessitatibus esse aliquam vero maiores sequi cupiditate. Maiores, fugit laborum! A, voluptatem voluptas"
+// var par=document.getElementsByClassName("card-text")[0]
+// par.innerHTML=text;
+
+// }
+
